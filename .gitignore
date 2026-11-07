@@ -1,0 +1,46 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---- Env / secrets ----
+.env
+.env.local
+.env.*.local
+*.pem
+
+# ---- Local database (SQLite) ----
+*.db
+*.sqlite
+*.sqlite3
+village_setu.db
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+
+# ---- IDE ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- Project-specific ----
+uploads/*
+!uploads/.gitkeep
+*.log
+node_modules/
+
+# ---- Tailwind build artifacts ----
+frontend/css/tailwind-input.css
+package-lock.json

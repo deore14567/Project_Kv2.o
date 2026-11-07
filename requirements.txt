@@ -1,0 +1,2 @@
+# Root requirements — local offline version
+-r backend/requirements.txt
