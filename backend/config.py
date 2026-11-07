@@ -12,7 +12,9 @@ from typing import Optional
 from dotenv import load_dotenv
 
 # Load .env file (created automatically by setup.sh on first run)
-load_dotenv()
+# override=True ensures .env values take precedence over any stale
+# environment variables that might be set in the shell.
+load_dotenv(override=True)
 
 
 class Settings:
